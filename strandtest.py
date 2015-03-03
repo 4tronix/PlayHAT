@@ -76,6 +76,7 @@ def theaterChaseRainbow(strip, wait_ms=50):
 
 
 # Main program logic follows:
+try:
 if __name__ == '__main__':
 	# Create NeoPixel object with appropriate configuration.
 	strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
@@ -96,3 +97,8 @@ if __name__ == '__main__':
 		rainbow(strip)
 		rainbowCycle(strip)
 		theaterChaseRainbow(strip)
+except:
+	print
+
+finally:
+	colorWipe(strip, Color(0, 0, 0))
