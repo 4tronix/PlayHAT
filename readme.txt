@@ -35,3 +35,7 @@ $ sudo python setup.py install
 Now you can run the strandtest.py demo as follows:
 $ sudo python strandtest.py
 
+Also included is a dice simulator which runs continuously
+$ sudo python playhat.py
+
+
