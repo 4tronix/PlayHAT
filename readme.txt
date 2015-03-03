@@ -21,3 +21,17 @@ When the button is pressed, the corresponding GPIO Input pin is LOW
 
 To make the Beeper sound, raise the GPIO Output pin HIGH
 
+
+Software Installation
+=====================
+
+Ensure your Raspberry Pi is connected to the internet
+
+$ git clone https://github.com/4tronix/PlayHAT
+$ cd ~/PlayHAT
+$ sudo apt-get install python-pip python-dev
+$ sudo python setup.py install
+
+Now you can run the strandtest.py demo as follows:
+$ sudo python strandtest.py
+
