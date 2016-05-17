@@ -32,7 +32,7 @@ $ cd ~/PlayHAT
 $ sudo apt-get install python-pip python-dev
 $ sudo python setup.py install
 
-NB. For Raspbian Jessie release 10th May 2016 (and probbly later versions also) you will need to add the following lines in config.txt:
+NB. For Raspbian Jessie release 10th May 2016 (and probably later versions also) you will need to add the following lines in config.txt:
   hdmi_force_hotplug=1
   hdmi_force_edid_audio=1
 
